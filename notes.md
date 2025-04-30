@@ -186,4 +186,19 @@ nodemon -r dotenv/config --experimental-json-modules src/index.js
 ```
 
 # Apr 30, 2025
+[Lecture - 8](https://www.youtube.com/watch?v=S5EpsMjel-M&list=PLu71SKxNbfoBGh_8p_NS-ZAh6v7HhYqHW&index=9&t=1500s&pp=iAQB)
+
+-> Whenever a asynchronous (async) method completes, it returns a promise.
+
+-> Install Cookie-parser and Cors
+```
+npm i cookie-parser cors
+```
+
+-> cookie-parser is a middleware that parses cookies attached to the client request object. It makes it easier to access and manage cookies in your routes.
+
+-> cors is a middleware that allows your server to accept requests from other domains (origins), which is often needed when your frontend and backend are hosted separately.
+
+## NOTE: Starting JavaScript OneShot to have better understanding of NodeJS. [JavaScript One Shot](https://www.youtube.com/watch?v=sscX432bMZo) 
+
 
